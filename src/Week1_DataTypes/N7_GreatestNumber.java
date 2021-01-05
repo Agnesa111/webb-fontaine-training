@@ -1,10 +1,17 @@
-package Day1_DataTypes;
+package Week1_DataTypes;
 
 import java.util.Scanner;
 
 /**
  * Created by Agnesa on Sep, 2020
+ *
+ * 7. Take three numbers from the user and print the greatest number.
+ * Test Data: Input first number: 20
+ * Input second number: 67
+ * Input 3th number: 87
+ * Expected Output: The greatest: 87
  */
+
 public class N7_GreatestNumber {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -18,11 +25,10 @@ public class N7_GreatestNumber {
         System.out.print("Input the 3rd number: ");
         int num3 = in.nextInt();
 
-        if (num1 >= num2 && num1 >= num3) {
-            System.out.println("The greatest: " + num1);
-        } else if (num2 >= num1 && num2 >= num3) {
-            System.out.println("The greatest: " + num2);
-        } else
-            System.out.println("The greatest: " + num3);
+        if (num1 > num2 && num1 > num3) {
+            System.out.println("biggest number is: " + num1);
+        } else {
+            System.out.println("biggest number is: " + Math.max(num2, num3));
+        }
     }
 }

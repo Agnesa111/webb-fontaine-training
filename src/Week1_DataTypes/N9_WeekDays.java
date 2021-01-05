@@ -1,10 +1,15 @@
-package Day1_DataTypes;
+package Week1_DataTypes;
 
 import java.util.Scanner;
 
 /**
  * Created by Agnesa on Sep, 2020
+ *
+ * 9. Write a Java program that keeps a number from the user and generates an integer between 1 and 7 and displays the name of the weekday.
+ * Test Data: Input number: 3
+ * Expected Output : Wednesday
  */
+
 public class N9_WeekDays {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

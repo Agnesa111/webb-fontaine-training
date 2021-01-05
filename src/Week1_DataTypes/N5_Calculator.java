@@ -1,10 +1,17 @@
-package Day1_DataTypes;
+package Week1_DataTypes;
 
 import java.util.Scanner;
 
 /**
  * Created by Agnesa on Sep, 2020
+ *
+ * 5. Write a calculator that will suggest entering 2 numbers and 1 math operation; Numbers can be int, double, float. Math operation is a char and can be: (+, -, /, *, etc..)
+ * Test Data: Input a first number: 2
+ * Input a second number: 4
+ * Input math operation: +
+ * Expected Output: Result: 2 + 4 = 6
  */
+
 public class N5_Calculator {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
